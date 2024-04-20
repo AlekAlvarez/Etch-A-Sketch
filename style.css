@@ -1,0 +1,17 @@
+#big-container{
+    width:960;
+    height:960;
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30%;
+}
+.row{
+    display: flex;
+    flex:auto;
+}
+.box{
+    background-color: grey;
+    flex:auto;
+}
