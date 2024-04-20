@@ -6,6 +6,9 @@ for(let i=0;i<16;i++){
         const box=document.createElement("div");
         box.className="box";
         row.appendChild(box);
+        box.addEventListener("mouseenter",(event)=>{
+            event.target.style.backgroundColor="black";
+        })
     }
     container.appendChild(row);
 }
