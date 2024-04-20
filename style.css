@@ -1,17 +1,21 @@
 #big-container{
-    width:960;
-    height:960;
+    width:400px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 30%;
+    margin-top: 25px;
+    background-color: purple;
 }
 .row{
     display: flex;
     flex:auto;
+    background-color: blue;
 }
 .box{
     background-color: grey;
     flex:auto;
+    border:solid;
+    border-color: red;
 }
